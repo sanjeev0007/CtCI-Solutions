@@ -1,5 +1,6 @@
 # C++ Solutions to the [book](http://www.crackingthecodinginterview.com/)!
-## Show some : heart
+
+## Show Some :heart
 
 ![Image](Image/ctci.jpg)
 
