@@ -12,7 +12,7 @@ cannot use additional data structures?
 #include<bits/stdc++.h>
 using namespace std;
 
-//
+// Approach 1
 bool isUnique(string s)
 {
     int l=s.length();
@@ -31,6 +31,7 @@ bool isUnique(string s)
     }
     return true;
 }
+// Approach 2
 
 int main()
 {
