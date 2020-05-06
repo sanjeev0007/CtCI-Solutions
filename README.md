@@ -4,7 +4,7 @@
 
 Here we are going to solve the problems with different diferent approaches.
 
-# Contributers
+# Contributors
 [Siddharth](https://github.com/aquila1939)
 
 [Sanjeev](https://github.com/sanjeev0007)
