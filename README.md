@@ -1,4 +1,4 @@
 # Solution to the [book](http://www.crackingthecodinginterview.com/)
 
 
-[!Image](Image/ctci.jpg)
+![Image](Image/ctci.jpg)
