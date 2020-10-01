@@ -69,6 +69,7 @@ bool isUnique3(string s)
 }
 
 //Approach 4
+// This will work in all case with O(nlogn).
 bool isUnique4(string s)
 {
 	sort(s.begin(), s.end());
