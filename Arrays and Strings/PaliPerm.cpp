@@ -28,7 +28,7 @@ bool isPermutationOfPalindrom(string s)
         if (cc.second % 2)
             ct++;
     }
-    return ct >= 1;
+    return ct <= 1;
 }
 
 int main()
