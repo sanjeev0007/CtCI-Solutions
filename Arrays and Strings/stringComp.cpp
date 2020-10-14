@@ -32,21 +32,17 @@ void strigComp(string s)
         }
         else
         {
-            // if (ct != 0)
             v.push_back(ct + 1);
             ct = 0;
         }
     }
     for (auto &c : st)
         ans += c;
-    // for (int i : v)
-    // cout << i << " ";
     for (int i = 0; i < v.size(); ++i)
     {
         cout << ans[i];
         cout << v[i];
     }
-    // return ans;
 }
 
 int main()
@@ -54,4 +50,5 @@ int main()
     string s1;
     cin >> s1;
     strigComp(s1);
+    return 0;
 }
