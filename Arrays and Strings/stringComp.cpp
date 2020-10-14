@@ -14,13 +14,44 @@ using namespace std;
 
 //Approach 1
 
-bool strigComp(string s)
+//may be this approach is lengthy :(
+
+void strigComp(string s)
 {
+    int n = s.size();
+    int ct = 0;
+    string ans = "";
+    vector<int> v;
+    set<char> st;
+    for (int i = 0; i < n; ++i)
+    {
+        st.insert(s[i]);
+        if (i + 1 < n && s[i] == s[i + 1])
+        {
+            ct++;
+        }
+        else
+        {
+            // if (ct != 0)
+            v.push_back(ct + 1);
+            ct = 0;
+        }
+    }
+    for (auto &c : st)
+        ans += c;
+    // for (int i : v)
+    // cout << i << " ";
+    for (int i = 0; i < v.size(); ++i)
+    {
+        cout << ans[i];
+        cout << v[i];
+    }
+    // return ans;
 }
 
 int main()
 {
     string s1;
     cin >> s1;
-    cout << strigComp(s1) << "\n";
+    strigComp(s1);
 }
