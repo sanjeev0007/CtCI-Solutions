@@ -36,7 +36,7 @@ int main()
     cin >> s1 >> s2;
     int n1 = s1.size();
     int n2 = s2.size();
-    if (n1 - n2 <= 1)
+    if (abs(n1 - n2) <= 1)
         cout << oneAway(s1, s2) << "\n";
     else
         cout << "false"
