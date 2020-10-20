@@ -12,8 +12,9 @@ the original string. You can assume the string has only uppercase and lowercase 
 #include <bits/stdc++.h>
 using namespace std;
 
-//Approach 1
 
+
+//Approach 1
 //may be this approach is lengthy :(
 
 void strigComp(string s)
@@ -44,6 +45,12 @@ void strigComp(string s)
         cout << v[i];
     }
 }
+
+//Approach 2
+
+//Idea we can also make it in O(N) by iterating from 0 to n and counting simmultaneously maybe?
+
+
 
 int main()
 {
