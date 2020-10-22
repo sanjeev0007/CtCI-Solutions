@@ -54,6 +54,9 @@ void strigComp(string s)
 
 int main()
 {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    
     string s1;
     cin >> s1;
     strigComp(s1);
