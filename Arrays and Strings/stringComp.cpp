@@ -50,7 +50,8 @@ void strigComp(string s)
 
 //Idea we can also make it in O(N) by iterating from 0 to n and counting simmultaneously maybe?
 
-
+#include <bits/stdc++.h>
+using namespace std;
 
 int main()
 {
