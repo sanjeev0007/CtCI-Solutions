@@ -37,7 +37,7 @@ void strigComp(string s)
             ct = 0;
         }
     }
-    for (auto &c : st)
+    for (char c : st)
         ans += c;
     for (int i = 0; i < v.size(); ++i)
     {
