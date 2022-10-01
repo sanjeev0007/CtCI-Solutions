@@ -22,9 +22,10 @@ vector<vector<int>> threeSum(vector<int>& v) {
                     vector<int>triplet(3,0);
                     
                     triplet[1]=v[front];
-                    triplet[2]=v[back];
+                    
                     triplet[0]=v[i];
-                    ans.push_back(triplet);
+                    triplet[2]=v[back];
+                      ans.push_back(triplet);
                     while(front<back && v[front]==triplet[1])
                         front++;
                     while(front<back && v[back]==triplet[2])
