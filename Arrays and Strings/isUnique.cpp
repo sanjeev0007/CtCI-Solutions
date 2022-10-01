@@ -14,7 +14,7 @@ bool isUnique1(string s)
 {
     int l=s.length();
     //if length of string is greater than total no. of unique character present in ASCII
-    if(l>128)
+    if(l>=127)
         return false;
 
     bool check[128]={0};
