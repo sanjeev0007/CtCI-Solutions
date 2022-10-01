@@ -20,9 +20,10 @@ vector<vector<int>> threeSum(vector<int>& v) {
                 else
                 {
                     vector<int>triplet(3,0);
-                    triplet[0]=v[i];
+                    
                     triplet[1]=v[front];
                     triplet[2]=v[back];
+                    triplet[0]=v[i];
                     ans.push_back(triplet);
                     while(front<back && v[front]==triplet[1])
                         front++;
