@@ -11,7 +11,6 @@ column are set to 0.
 using namespace std;
 
 //Approach 1
-//I guess there is only one approach for this
 
 const int N = 1000;
 int mat[N][N];
