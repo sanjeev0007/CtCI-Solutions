@@ -1,4 +1,4 @@
-bool validPalindrome(string s) {
+bool validPalindrome(string &s) {
         int lo=0,hi=s.size()-1;
         return valid(s,lo,hi,0);
         
