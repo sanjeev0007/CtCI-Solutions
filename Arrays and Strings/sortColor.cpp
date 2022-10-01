@@ -22,7 +22,6 @@ void sortColors(vector<int>& v) {
                 v[mid]=v[high];
                 v[high]=tmp;
                 high--;
-                // mid++;
                 
             }
             
